@@ -95,7 +95,7 @@ log_step("✅ 구글 시트 데이터 선 확인")
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name(
-    "/Users/deepdive/Documents/강희/지그재그 교환송장/new_google_API_KEY/mystical-button-438607-h5-ecc3ead3147d.json", scope)
+    "/Users/kang_hiee/Documents/강희/Deepdive/지그재그 교환송장/new_google_API_KEY/mystical-button-438607-h5-ecc3ead3147d.json", scope)
 client = gspread.authorize(creds)
 
 sheet_url = "https://docs.google.com/spreadsheets/d/1PhdbPo4WEcPGJBKLwqDYAny_WpH25cJNKrZzM42bSyU/edit#gid=600415326"
