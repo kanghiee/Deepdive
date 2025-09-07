@@ -2,7 +2,7 @@ Selenium과 Google Sheets API를 활용하여 29CM와 지그재그 파트너 어
 
 주요 기능
 - Google Sheets API로 교환 출고 데이터 조회
-- Selenium WebDriver로 29CM 관리자 페이지 자동 로그인 & OTP 인증
+- Selenium WebDriver로 29CM/지그재그 관리자 페이지 자동 로그인 & OTP 인증
 - 주문번호 검색 후 교환 상태 확인
 - 조건 충족 시 자동으로 운송장 입력 및 교환 처리 완료
 
